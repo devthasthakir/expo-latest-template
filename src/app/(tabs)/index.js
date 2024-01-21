@@ -9,7 +9,9 @@ const HomeScreen = () => {
     <View className="flex-1 flex justify-center items-center dark:bg-dark-background space-y-6">
       <StatusBar style={colorScheme == "dark" ? "light" : "dark"} />
       <View className="flex-row justify-center items-center space-x-2">
-        <Text className="text-xl text-primary-main font-poppins-bold">Dark Mode</Text>
+        <Text className="text-xl text-primary-main font-poppins-bold">
+          Dark Mode
+        </Text>
         <Switch value={colorScheme == "dark"} onChange={toggleColorScheme} />
       </View>
 
